@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Tape Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url(https://i.imgur.com/bUv1af3.jpeg) no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            overflow: hidden; /* Prevents scrollbars */
+        }
+
+        @media (max-width: 768px) { /* Adjustments for phones and tablets */
+            body {
+                background-size: cover; /* Keeps the same behavior */
+            }
+        }
+
+        .artist-name {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 150px; /* Adjust as needed */
+            height: auto;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        iframe {
+            margin-top: 10px;
+            border: none;
+            width: 300px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://i.postimg.cc/fTybDyFG/ssalemm-12-25-2024-1.png" alt="Artist Name" class="artist-name">
+    <div class="container">
+        <iframe src="<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0h1MZFpLuI89avdgDDRYzg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"></iframe>
+        <iframe src="<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/za/album/umd-ep/1785783094"></iframe>"></iframe>
+    </div>
+</body>
+</html>
